@@ -47,6 +47,7 @@ Altına ekleyin:
 ```
 # Lamba kontrolü (python dosyası)
 > 220W ile çalıştığınızı unutmayın, elektrik bilginiz yoksa bu işe hiç kalkışmamanızı tavsiye ederim.
+
 > `priz_ac.py` dosyasını oluşturalım:
 ```
 #!/usr/bin/env python
