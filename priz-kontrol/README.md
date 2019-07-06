@@ -1,4 +1,8 @@
 # Homebridge ile priz kontrolü
+
+[![Watch the video](https://i.ytimg.com/vi/TdzTcXB5iyU/hqdefault.jpg)](https://www.youtube.com/watch?v=TdzTcXB5iyU)
+
+
 > Dipnot: Bunu yapmak için, iPhone'un Bluetooth özelliği etkin olmalı ve her iki cihazın da aynı WiFi ağında olması gerekir. 
 # cmdswitch2 kurulumu
 ```
