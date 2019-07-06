@@ -1,9 +1,9 @@
 # homebridge-turkey
-Homebridge kullanarak geliştirdiğim projeyi tüm kaynakları ile paylaşıyorum.
+- Homebridge kullanarak geliştirdiğim projeyi tüm kaynakları ile paylaşıyorum.
 ---
 
 # Projenin klonunu direk SD karta yazıp kullanmak için:
-# Komut Satırını (CLI) Kullanarak Geri Yükleme
+- Komut Satırını (CLI) Kullanarak Geri Yükleme
 Adım 1. Geri Yüklenecek SD Kartı Takın
 Mac'inizdeki SD kart okuyucusuna boş (veya kullanılmış ve boş) bir SD kart yerleştirin.
 
