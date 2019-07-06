@@ -1,4 +1,4 @@
-# homebridge-turkey
+# HomeBridge Turkey
 - Homebridge kullanarak geliştirdiğim projeyi tüm kaynakları ile paylaşıyorum.
 ---
 
@@ -6,5 +6,5 @@
 
 [HomeBridge Güncelleme](https://hasanunal.org/homebridge-guncelleme/)
 
-# Homebridge'i yükleyin
+# HomeBridge'i yükleyin
 > Bununla ilgili kaynağı orjinal adresinden bulabilirsiniz. [HomeBridge](https://github.com/nfarina/homebridge)
