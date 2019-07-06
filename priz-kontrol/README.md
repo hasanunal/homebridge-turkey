@@ -46,13 +46,70 @@ Altına ekleyin:
 }
 ```
 # Lamba kontrolü (python dosyası)
+> 220W ile çalıştığınızı unutmayın, elektrik bilginiz yoksa bu işe hiç kalkışmamanızı tavsiye ederim.
+> `priz_ac.py` dosyasını oluşturalım:
 ```
 #!/usr/bin/env python
 import RPi.GPIO as GPIO
 gpio_pin_number=20
-GPIO.setmode(GPIO.BCM) # BCM pin numbering
+GPIO.setmode(GPIO.BCM) # BCM pin numarasi
 GPIO.setwarnings(False)
 GPIO.setup(gpio_pin_number, GPIO.OUT) 
 GPIO.output(gpio_pin_number, GPIO.HIGH) 
 ```
-> Burada GPIO pinlerini kullanıyoruz, tetik veriyoruz
+> Not: Burada GPIO pinlerini kullanıyoruz, tetik veriyoruz.
+> `priz_kapat.py` dosyasını oluşturalım:
+```
+#!/usr/bin/env python
+import RPi.GPIO as GPIO
+gpio_pin_number=20
+GPIO.setmode(GPIO.BCM) # BCM pin numarasi
+GPIO.setwarnings(False)
+GPIO.setup(gpio_pin_number, GPIO.OUT) 
+GPIO.output(gpio_pin_number, GPIO.LOW)
+```
+
+> `priz_durum.py` dosyasını oluşturalım:
+```
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import subprocess
+from subprocess import Popen, PIPE
+ 
+pin_number=20
+proc = Popen(
+    "echo %s > /sys/class/gpio/export" % pin_number,
+    shell=True,
+    stdout=PIPE, stderr=PIPE
+)
+ 
+proc.wait() 
+proc = Popen(
+    "cat /sys/class/gpio/gpio%s/value" % pin_number,
+    shell=True,
+    stdout=PIPE, stderr=PIPE
+)
+proc.wait()
+res = proc.communicate()  # get tuple('stdout', 'stderr')
+count = res[0].replace("\n","")
+count = int(count)
+ 
+if count == 0:
+        id=0
+else:
+        print('1').replace("\n","")
+```
+> Burada da tetikten sonraki durumunu görmemizi sağlıyoruz. Prizin son durumunu.
+
+Bir lamba için, kodlar tamamen benzerdir, sadece lamba rölesinin sinyal kablosunu bağladığınız pimi değiştirin. Tüm komut dosyalarını çalıştırılabilir hale getiririz, gerekirse, komut dosyalarının doğru şekilde çalıştırılması için Python kitaplıklarını koyarız.
+
+# Yeniden başlatmak için
+```
+service homebridge restart
+```
+> İPhone'a giriyoruz, uygulama evinde - 2 yeni cihaz görünmeli. 
+Harika! Röleler kontrollü bir priz (anahtar) ve bir lambanız var artık. 
+
+# Sesli komut ile açmak için
+> Hey siri, TV Priz aç!
+> Hey siri, lambaları yak!
