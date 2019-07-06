@@ -4,7 +4,7 @@
 
 [![Watch the video](https://i.ytimg.com/vi/TdzTcXB5iyU/hqdefault.jpg)](https://www.youtube.com/watch?v=TdzTcXB5iyU)
 
-[OS X’TE KOMUT SATIRI KULLANILARAK RASPBERRY PI SD KARTA NASIL KLONLANIR?](https://hasanunal.org/os-xte-komut-satiri-kullanilarak-raspberry-pi-sd-karta-nasil-klonlanir/)
+[OS X’te komut satırı kullanılarak Raspberry Pi SD Karta nasıl klonlanır?](https://hasanunal.org/os-xte-komut-satiri-kullanilarak-raspberry-pi-sd-karta-nasil-klonlanir/)
 
 [HomeBridge Güncelleme](https://hasanunal.org/homebridge-guncelleme/)
 
