@@ -1,5 +1,5 @@
 # HomeBridge Turkey
-- Homebridge kullanarak geliştirdiğim projeyi tüm kaynakları ile paylaşıyorum.
+- Homebridge kullanarak geliştirdiğim akıllı ev sistemleri projesini tüm kaynakları ile paylaşıyorum.
 ---
 
 [OS X’TE KOMUT SATIRI KULLANILARAK RASPBERRY PI SD KARTA NASIL KLONLANIR?](https://hasanunal.org/os-xte-komut-satiri-kullanilarak-raspberry-pi-sd-karta-nasil-klonlanir/)
