@@ -6,6 +6,8 @@
 
 [DMG Kalıp dosyasını indir - İşletim sistemi ve tüm paketler](https://mega.nz/#!mlkxDILS)
 
+Mega decryption keys: `_dd8DUrD_cFtc0boJW2w7Opt3iRk3odMYbyIS-53Ckk`
+
 [OS X’te komut satırı kullanılarak Raspberry Pi SD Karta nasıl klonlanır?](https://hasanunal.org/os-xte-komut-satiri-kullanilarak-raspberry-pi-sd-karta-nasil-klonlanir/)
 
 [HomeBridge Güncelleme](https://hasanunal.org/homebridge-guncelleme/)
