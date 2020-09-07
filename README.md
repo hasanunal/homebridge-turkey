@@ -4,6 +4,8 @@
 
 [![Watch the video](https://i.ytimg.com/vi/TdzTcXB5iyU/hqdefault.jpg)](https://www.youtube.com/watch?v=TdzTcXB5iyU)
 
+[Priz Kontrolü](https://github.com/hasanunal/homebridge-turkey/tree/master/priz-kontrol#homebridge-ile-priz-kontrol%C3%BC)
+
 
 [OS X’te komut satırı kullanılarak Raspberry Pi SD Karta nasıl klonlanır?](https://hasanunal.org/os-xte-komut-satiri-kullanilarak-raspberry-pi-sd-karta-nasil-klonlanir/)
 
